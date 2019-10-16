@@ -521,3 +521,50 @@
   .editor p {
     color: white;
   }
+
+  .quote h2 {
+    text-align: center;
+  }
+
+
+  .house-info {
+    background-color: #F5F5F5;
+  }
+
+  .house-info-inside {
+    padding: 100px 2%;
+  }
+
+  .block-content {
+    font-size: 20px;
+    margin-bottom: 100px;
+  }
+
+  .block-content h2 {
+    text-align: center;
+  }
+
+  .house-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .house-img img {
+    width: 22%;
+  }
+
+  .house-img .first-img {
+    margin-right: 20px;
+  }
+
+  .house-img .second-img {
+    margin: 0 20px;
+  }
+
+  .house-img .third-img {
+    margin: 0 20px;
+  }
+
+  .house-img .four-img {
+    margin-left: 20px;
+  }
