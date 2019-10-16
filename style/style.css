@@ -1,0 +1,523 @@
+  * {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+
+  html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  a, button {
+    cursor: pointer;
+  }
+
+
+  header {
+      /*background-color: #890cd1; */
+      height: 100vh;
+      background-image: url(../img/AdobeStock_195754339.jpeg);
+      background-size: COVER;
+  }
+
+  .top-menu-all{
+    background-color: #000; 
+  }
+
+  .top-menu {
+      display: flex; 
+      margin: 0px 20px;
+      padding: 20px; 
+      justify-content: space-between;
+  }
+
+  .name-logo {
+    color: #fff;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+  }
+
+  @media (max-width: 600px){
+    .navbar {
+      display: none;
+    }
+  }
+
+  .navbar ul li{
+      list-style: none;
+  }
+
+  .navbar ul {
+      display: inline-flex;
+  }
+
+  .navbar ul li a {
+    padding: 0 25px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+
+
+  .welcome-moon {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+  }
+
+  .about {
+    width: 70%;
+    position: absolute;
+    top: 20%;
+
+    text-align: center; 
+  }
+
+  .about h1 {
+    font-size: 60px;
+  }
+
+  .about h2 {
+    text-align: center;
+    margin-top: 20%;    
+    font-size: 40px;    
+  }
+
+  a:hover {
+    border-radius: 20px;
+  }
+
+
+  .search {
+      display: flex;
+      align-items: center;
+  }
+
+  .search .contact {
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    background-color: #0FB3C2;
+    border-radius: 20px;
+  }
+
+  .social-bar{
+    width: 100%;
+    background-color: #1d1d1d;
+    color: white;
+  }
+
+  .social-bar-container {
+    display: flex;
+
+    max-height: 50px;
+    max-width: 1100px;
+    padding: 5px 5px 0px 5px;
+  }
+
+  .choice{
+    background-color: #F5F5F5;
+  }
+
+  .choice h2 {
+    margin-top: 0px; 
+    text-align: center; 
+    padding-top: 50px;
+    padding-bottom: 100px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .line {
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+  }
+
+  .line hr {
+    border: 2px solid red;
+  }
+
+  .choice-house {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  @media  (max-width: 600px){
+    .choice-house{
+      flex-flow: column;
+    }
+  }
+
+  .buy-house {
+    padding: 24px;
+    border: 1px solid #808080a6;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-right: 20px;
+  }
+
+  .img-buy {
+    text-align: center;
+  }
+
+  .buy-house h3 {
+    margin: 15px 0;
+  }
+
+  .btn-house {
+    padding: 10px 30px;
+    background-color: transparent;
+    color: #0FB3C2;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 20px;
+  }
+
+  .btn-house:hover{
+    color: white;
+    background-color: #0FB3C2;
+  }
+
+  .sell-house{
+    padding: 24px;
+    border: 1px solid #808080a6;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin: 0 20px;
+  }
+
+  .img-sell {
+    text-align: center;
+  }
+
+  .sell-house h3 {
+    margin: 15px 0;
+  }
+
+  .rent-house {
+    padding: 24px;
+    border: 1px solid #808080a6;  
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-left: 20px;
+  }
+
+
+  .img-rent {
+    text-align: center;
+  }
+
+  .rent-house h3 {
+    margin: 15px 0;
+  }
+
+  .about-btn {
+    text-align: center;
+  }
+  
+  .wtf {
+    background-image: url(/Lunar_base_made_with_3D_printing-879x485.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+  }
+
+  .wtf-l {
+    padding: 50px;
+  }
+
+  .wtf-l h1 {
+    margin-bottom: 50px;
+  }
+
+  .wtf div {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sun-plants {
+    border-left:  3px solid gray;
+  }
+
+  .sun h2{
+    background-color: #fff;
+    display: inline-block;
+    color: #000;
+    padding: 5px 20px;
+    margin-bottom: 30px;
+  }
+
+  .sun p{
+    color: gray;
+
+  }
+
+  .plants h2 {
+    background-color: #fff;
+    display: inline-block;
+    color: #000;
+    padding: 5px 20px;
+    margin: 30px 0;
+  }
+
+  .plants p{
+    color: white;
+  }
+
+  .content {
+    background-color: #F5F5F5;
+  }
+
+  .content-inside {
+    padding: 100px 8%;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .moon-information {
+    text-align: center;
+  }
+  .moon-information h1 {
+    margin-bottom: 30px;
+  }
+  .moon-information h2 {
+    margin-top: 10px;  
+  }
+
+  .logo {
+    display: flex;
+    justify-content: space-evenly
+  }
+
+  @media (max-width: 600px){
+    .logo {
+      flex-flow: column wrap;
+    }
+  }
+
+  .left-logo, .right-logo {
+    text-align: center;
+  }
+
+  .top-left-logo{
+    margin-top: 50px;
+  }
+
+  .bottom-left-logo{
+    margin-top: 50px;
+  }
+
+  .top-right-logo{
+    margin-top: 50px;
+  }
+
+  .bottom-right-logo{
+    margin-top: 50px;
+  }
+
+  .around-img {
+    margin-top: 40px;
+  }
+
+  .moon-colony {
+    background-image: url(../img/moon_colony.jpg);
+    height: 100vh;
+      background-size: 100%;
+    
+  } 
+
+  footer {
+    background-image: url(/footer_bg.jpg);
+  }
+
+  .contact-us {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 2em;
+  }
+
+  .social-networks{
+    text-align: center;
+  }
+
+  .social-networks img {
+    width: 7%;
+  }
+
+  .inside-soc-networks {
+    display: flex;
+    justify-content: space-around;
+    width: 33%;
+  }
+
+  .information {
+    display: flex;
+    justify-content: center;
+  }
+
+  .information ul {
+    padding: 0;
+  }
+
+  .website-map {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .sitemap-block {
+    margin-left: 10%;
+    margin-bottom: 10%;
+  }
+
+  .sitemap-block ul li {
+    margin-bottom: 7px;
+  }
+
+  .sitemap-block ul li a {
+    color: #c6c5d3;
+    text-decoration: none;
+  }
+
+  .sitemap-block ul li a:hover {
+    color: #fff;
+  }
+
+  .title-sitemap {
+    color: white;
+    margin-bottom: 8px;
+  }
+
+
+
+  @media (max-width: 600px){
+    .information{
+      flex-flow: column;
+    }
+  }
+
+
+
+
+  /* hamburger menu */
+
+  #menu-toggle {
+    opacity: 0;
+  }
+
+  .menu-btn {
+    display: flex; 
+    align-items: center; 
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .menu-box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+   
+    right: 2px;
+    width: 300px;
+    height: 100%;
+
+    margin: 0;
+    padding: 80px 80px;
+
+    background-color: #ECEFF1;
+  }
+
+
+  .menu-btn > span,
+  .menu-btn > span::before,
+  .menu-btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+  }
+
+  .menu-btn > span::before{
+    content: '';
+    top: -8px;
+  }
+
+  .menu-btn > span::after{
+    content: '';
+    top: 8px;
+  }
+
+
+.menu-iteam{
+  display: block;
+  padding: 12px 24px;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+  #menu-toggle:checked ~ .menu-box {
+    visibility: visible;
+    right: 0;
+    
+  }
+
+  #menu-toggle:checked ~ .menu-btn > span {
+    transform: rotate(45deg);
+    background-color: #000;
+  }
+
+  #menu-toggle:checked ~ .menu-btn > span::before {
+    top: 0;
+    transform: rotate(0);
+    background-color: #000;
+    z-index: 1;
+
+  }
+
+
+  #menu-toggle:checked ~ .menu-btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+    background-color: #000;
+  }
+
+
+  .all-footer{
+    display: flex;
+    border-top: 2px solid gray;
+    justify-content: center;
+  }
+
+  .editor {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+
+
+  .editor p {
+    color: white;
+  }
