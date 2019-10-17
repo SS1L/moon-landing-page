@@ -137,7 +137,7 @@
     margin-top: 0px; 
     text-align: center; 
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
     width: 80%;
     margin: 0 auto;
   }
@@ -149,7 +149,7 @@
   }
 
   .line hr {
-    border: 2px solid red;
+    border: 2px solid #0FB3C2;
   }
 
   .choice-house {
@@ -569,15 +569,10 @@
     margin-left: 20px;
   }
 
-  .mailto-contact{
-    display: flex;
-  }
-
   .text-mailto {
     display: flex;
     align-items: center;
-    width: 50%;
-    background-color: #F5F5F5;
+    background-image: url(../img/2.png);
   }
 
   .text-mailto-inside{
@@ -594,18 +589,14 @@
     margin: 16px 0;
   }
 
+  .button-contact {
+    margin-bottom: 50px;
+  }
+
   .button-contact button{
     background-color: #0FB3C2;
     border: none;
     border-radius: 100px;
     padding: 12px 30px;
     margin-top: 30px;
-  }
-
-  .mailto-img {
-    width: 50%;
-  }
-
-  .mailto-img img {
-    width: 100%;
   }
