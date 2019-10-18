@@ -375,16 +375,32 @@
     margin-top: 50px;
   }
 
+  .top-left-logo h2 {
+    font-size: calc(0.5rem + 1.23vw);
+  }
+
   .bottom-left-logo{
     margin-top: 50px;
+  }
+
+  .bottom-left-logo h2{ 
+    font-size: calc(0.5rem + 1.23vw);
   }
 
   .top-right-logo{
     margin-top: 50px;
   }
 
+  .top-right-logo h2 {
+    font-size: calc(0.5rem + 1.23vw);
+  }
+
   .bottom-right-logo{
     margin-top: 50px;
+  }
+
+  .bottom-right-logo h2 {
+    font-size: calc(0.5rem + 1.23vw);
   }
 
   .around-img {
@@ -671,4 +687,10 @@
     color: white;
     text-decoration: none;
     font-size: 20px;
+  }
+
+  @media (max-width: 354px){
+    .bottom-right-logo img {
+      margin-top: 16px;
+    }
   }
