@@ -46,7 +46,18 @@
     align-items: center;
   }
 
+  @media (min-width: 601px) {
+    .watch {
+      display: none;
+    }
+  }
+
   @media (max-width: 600px){
+    .search .contact {
+      display: none;
+    }
+
+
     .navbar {
       display: none;
     }
@@ -237,7 +248,7 @@
   .btn-house {
     padding: 10px 30px;
     background-color: transparent;
-    color: #0FB3C2;
+    color: #6200ff;;
     border-radius: 5px;
     border: 1px solid black;
     margin-top: 20px;
